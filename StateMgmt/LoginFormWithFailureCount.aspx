@@ -5,11 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 100%;
-        }
-    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -29,7 +24,7 @@
                 </tr>
                 <tr>
                     <td align="right">
-                        <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click"/>
+                        <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
                     </td>
                     <td>
                         <input id="btnReset" type="reset" value="Reset" /></td>

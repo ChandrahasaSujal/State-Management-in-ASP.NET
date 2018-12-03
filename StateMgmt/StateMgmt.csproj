@@ -67,13 +67,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DisplayingCountWithHiddenField.aspx" />
     <Content Include="Failure.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="HiddenFieldDemo.aspx" />
     <Content Include="LoginFormWithFailureCount.aspx" />
     <Content Include="Success.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DisplayingCountWithHiddenField.aspx.cs">
+      <DependentUpon>DisplayingCountWithHiddenField.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayingCountWithHiddenField.aspx.designer.cs">
+      <DependentUpon>DisplayingCountWithHiddenField.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Failure.aspx.cs">
       <DependentUpon>Failure.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -83,6 +92,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HiddenFieldDemo.aspx.cs">
+      <DependentUpon>HiddenFieldDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HiddenFieldDemo.aspx.designer.cs">
+      <DependentUpon>HiddenFieldDemo.aspx</DependentUpon>
     </Compile>
     <Compile Include="LoginFormWithFailureCount.aspx.cs">
       <DependentUpon>LoginFormWithFailureCount.aspx</DependentUpon>
